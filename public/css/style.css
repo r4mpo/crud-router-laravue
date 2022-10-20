@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+* {
+    font-family: 'Comfortaa', cursive;
+    font-style: italic;
+}
+
+@media screen and (min-width: 992px) {
+
+    .formulario {
+        width: 400px;
+        margin-top: 25px;
+        margin-left: 110px;
+    }
+
+    .ml-10px {
+        margin-left: 10px;
+    }
+    
+    .projeto {
+        width: 410px;
+    }
+
+    .apresentacao {
+        position: absolute;
+        left: 35%;
+        margin-top: 15px;
+    }
+
+    .apresentacao h4 {
+        margin-top: 10px;
+    }
+
+    .secao-table {
+        float: right;
+        position: absolute;
+        top: 117px;
+        right: 10px;
+    }
+
+    .btn-produto {
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+}
+
+.apresentacao {
+    color: #fff;
+}
+
+.color-blue {
+    color: rgb(0, 0, 255);
+    cursor: pointer;
+}
+
+.color-red {
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+.formulario {
+    border: 1px solid rgb(30, 255, 0);
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(182, 182, 182);
+}
+
+.btn-produto {
+    color: black;
+    border-color: rgb(30, 255, 0);
+    background-color: white;
+    border-radius: 5px;
+}
+
+.btn-produto:hover {
+    border: 0px;
+    background-color: darkgreen;
+    color: #fff;
+}
+
+.tb-style {
+    text-align: center;
+    color: black;
+    background-color: rgb(64, 255, 80);
+}
+
+.header {
+    padding: 10px 10px 10px 10px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+
+.link-style {
+    text-decoration: none;
+    color: black;
+}
+
+.link-style:hover {
+    color: rgb(0, 255, 13);
+}
